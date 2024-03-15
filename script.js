@@ -35,12 +35,14 @@ function addTask() {
     let remove = document.createElement("button");
     remove.textContent = "Remove";
 
+    remove.classList.add("remove-button");
+
     let edit = document.createElement("button");
     edit.textContent = "Edit";
-
+    edit.classList.add("edit-button");
     edit.addEventListener("click", function () {
       label.textContent = prompt("Enter new task text:");
-    })
+    });
 
     remove.addEventListener("click", function () {
       li.remove();

@@ -7,10 +7,11 @@ li input[type="checkbox"] {
   margin-right: 8px;
 }
 
-/* li {
-    display: flex;
-    align-items: center;
-} */
+#title {
+  color: rgb(62, 177, 231);
+  font-family: "finger paint";
+}
+
 label {
   margin-right: 180px;
 }
@@ -18,15 +19,36 @@ label {
 #taskInput {
   margin: 10px;
   width: 300px;
+  border: none;
+  box-sizing: border-box;
+  height: 35px;
+  width: 320px;
 }
 
 #buttons {
   display: flex;
   margin: auto;
+  margin-left: 0px;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #addTask:hover {
-  background-color: greenyellow;
+  background-color: rgb(106, 167, 16);
 }
 
 #delAll:hover,
@@ -35,24 +57,38 @@ label {
 }
 
 #container {
-  margin: 0 auto;
-  background-color: brown;
-  width: 500px;
-  height: 500px;
+  margin-top: 150px;
+  background-color: rgb(73, 125, 98);
+  border-radius: 20px;
+  width: 800px;
+  height: 7%;
   padding: 20px;
   display: grid;
+  align-content: center;
 }
 
 .input-container {
-  margin: 0 auto;
+  margin-bottom: 100px;
   text-align: center;
   width: 300px;
   height: 50px;
 }
 
 .task-container {
-  background-color: blueviolet;
+  background-color: rgb(43, 73, 84);
+  border-radius: 30px;
   height: 300px;
   padding: 20px;
   margin: 30px;
+  color: white;
+}
+
+.remove-button:hover {
+  background-color: rgb(217, 75, 28); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.edit-button:hover {
+  background-color: rgb(97, 145, 102);
+  color: white;
 }
