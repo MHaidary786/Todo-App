@@ -42,7 +42,7 @@ function addTask() {
     edit.classList.add("edit-button");
     edit.addEventListener("click", function () {
       label.textContent = prompt("Enter new task text:");
-    });
+    })
 
     remove.addEventListener("click", function () {
       li.remove();

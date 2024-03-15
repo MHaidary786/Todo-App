@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic Tac Toe</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Finger+Paint&display=swap"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Finger+Paint&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <h1 id="playerText">Tic Tac Toe</h1>
-      <button id="restartBtn">Restart</button>
-      <div id="gameboard">
-        <div class="box" id="0"></div>
-        <div class="box" id="1"></div>
-        <div class="box" id="2"></div>
-        <div class="box" id="3"></div>
-        <div class="box" id="4"></div>
-        <div class="box" id="5"></div>
-        <div class="box" id="6"></div>
-        <div class="box" id="7"></div>
-        <div class="box" id="8"></div>
+
+    <div id="container">
+      <h1 id="title">Todo App</h1>
+      <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Enter a todo..." />
+        <div id="buttons">
+          <button class="button" id="addTask">Add</button>
+          <button class="button" id="delAll">Delete All</button>
+          <button class="button" id="delComp">Remove Completed</button>
+        </div>
+      </div>
+      <div class="task-container">
+        <ol id="taskList"></ol>
       </div>
     </div>
 

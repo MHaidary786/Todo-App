@@ -83,12 +83,13 @@ label {
   color: white;
 }
 
-.remove-button:hover {
-  background-color: rgb(217, 75, 28); /* Change background color on hover */
-  color: white; /* Change text color on hover */
-}
 
-.edit-button:hover {
-  background-color: rgb(97, 145, 102);
-  color: white;
-}
+.remove-button:hover {
+    background-color: rgb(217, 75, 28); /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+
+  .edit-button:hover{
+    background-color: rgb(97, 145, 102);
+    color: white;
+  }
