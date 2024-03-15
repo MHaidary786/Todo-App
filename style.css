@@ -1,0 +1,58 @@
+* {
+  margin: 0 auto;
+  align-items: center;
+}
+
+li input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* li {
+    display: flex;
+    align-items: center;
+} */
+label {
+  margin-right: 180px;
+}
+
+#taskInput {
+  margin: 10px;
+  width: 300px;
+}
+
+#buttons {
+  display: flex;
+  margin: auto;
+}
+
+#addTask:hover {
+  background-color: greenyellow;
+}
+
+#delAll:hover,
+#delComp:hover {
+  background-color: brown;
+}
+
+#container {
+  margin: 0 auto;
+  background-color: brown;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  display: grid;
+}
+
+.input-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+}
+
+.task-container {
+  background-color: blueviolet;
+  height: 300px;
+  padding: 20px;
+  margin: 30px;
+}
